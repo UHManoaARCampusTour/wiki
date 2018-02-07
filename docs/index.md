@@ -31,6 +31,6 @@ Welcome to our EE496 Project Wiki! We will document our code, meetings, presenta
  
 [Microsoft Hololens Spacial Mapping](https://developer.microsoft.com/en-us/windows/mixed-reality/spatial_mapping_in_unity)
 
-[Unity Gesture Recognizer]
-(https://docs.unity3d.com/ScriptReference/XR.WSA.Input.GestureRecognizer.html)
- 
+[Unity Gesture Recognizer](https://docs.unity3d.com/ScriptReference/XR.WSA.Input.GestureRecognizer.html)
+
+[Vuforia](https://www.vuforia.com/) 

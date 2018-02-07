@@ -1,0 +1,5 @@
+Make use of vuforia library in order to recognize objects. We should start with smaller objects and get consistient results before trying our luck on the Gate of Hope.
+
+Some problems we invision running into is that the viewing angles may negatively affect our result. We may need to circumvent these issues with another solution.
+
+
