@@ -1,0 +1,8 @@
+We can use Vuforia's SDK in order to have the hololens view real life objects. This may allow us to recognize the Gate of Hope and other structures. 
+
+According to brief research, it shows that Vuforia's SDK may allow us to simply overlay our UI over whatever object we want.
+
+Concerns:
+
+1. Explore how viewing angle affects Vuforia, if viewing angle needs to be specific, then we will need to figure out a workflow in which this occurs.
+
