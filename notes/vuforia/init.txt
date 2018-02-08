@@ -2,4 +2,9 @@ Make use of vuforia library in order to recognize objects. We should start with 
 
 Some problems we invision running into is that the viewing angles may negatively affect our result. We may need to circumvent these issues with another solution.
 
+- Vuforia seems to have features involving 3D-shapes (called Model Targets or Object Targets). This will be our likely approach.
+
+However we can see that we do have options involving 2D images and recognizing them. We may find fun things to implement with Multi-Target, Cylinder targets (because of the cylindrical nature of the Gate of Hope).
+
+
 
