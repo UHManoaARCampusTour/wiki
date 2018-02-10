@@ -1,0 +1,120 @@
+\documentclass[titlepage]{article}
+
+%%% Packages begin %%%
+\usepackage[margin=1in]{geometry}   % Used to generate the margins
+\usepackage{fancyhdr}               % Used to generate the header
+\usepackage{listings}               % Used to generate code
+\usepackage{color}                  % Used to generate color
+\usepackage{courier}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+%%% Packages end %%%
+
+\begin{document}
+
+%%% Title page begin %%%
+\title{\bf EE 496: Project Proposal}
+\author{Dylan Tokita and Keane Hamamura}
+\date{\today}
+\maketitle
+%%% Title page end %%%
+
+%%% Page configuration begin %%%
+\pagenumbering{roman}               % Roman numerals for page number
+\setcounter{page}{2}                % Start page count at 2
+\parindent=0in                      % No indent on new paragraph
+\parskip=8pt                        % 8 point space between paragraphs
+\pagestyle{fancy}                   % Fancy header
+\lhead{Dylan Tokita and Keane Hamamura}
+\chead{EE 496: Project Proposal}
+%%% Page configuration end %%%
+
+%%% Code configuration begin %%%
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize\ttfamily,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  %frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=C,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+%%% Code configuration end %%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% --- Homework Start --- %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Problem}
+
+The University of Hawaii at Manoa had an enrollement rate of approximately 30\% last year of those admitted. Some of the top schools in the nation have rates in the 40\%-45\% range. We believe that we can help close that gap by giving a more detailed and consistient campus tour experience. 
+
+\section*{Vision}
+
+The integration of Augmented Reality (AR) into the admissions process could potentially the user experience and make the high cost of visiting the campus for those not from Hawaii, a more "worth while" experience.
+
+In additon, AR campus tours could provide a more interactive and personalized campus tour. Campus amenities such as menus to show case the food in the cafeterias or restaurants on  or around campus could be appealing to those interested in food. Sports highlights of university sports could interest a prospective athlete to attend the University of Hawaii at Manoa. Or finally, showing an x-ray view of some of the technology facilities may interest scholars. 
+
+Ideally, student would have the ability to leave comments, ratings and real feedback that could be visible to those on the campus tour in order to give realistic expectations and ideas of what campus life is really like.
+
+Hawaii has a rich history and culture that is difficult to show without the use of AR (because not much of it remains) but can be explained through this process which could appeal to many. It is a prideful thing for many students to stay home and graduate from the University of Hawaii at Manoa, potentially where many of their own family members graduated themselves.
+
+\section*{Benefits}
+
+An AR solution would offer a low-cost, consistent and personalized experience for those thinking about attending the University of Hawaii at Manoa. This software could be maintained as well, updated with new information (or ensure that information stays up to date and current).
+
+The cost and hassle of having to schedule a tour guide can be remedied by having an AR solution that families and students touring the campus could enjoy at their own pace and their own time. When in a large group, it is difficult to please everyone's different agenda, some wanting to faster than others or wanting to see different things.
+
+Many times they have questions they may be too hesitant to ask in front of a large group and an AR solution would likely have the ability for questions to be asked to an admissions expert for near-real time answering.
+
+Someone's campus tour experience may be impacted by the individual giving the tour itself, however; an AR experience would provide a consistent experience, independent of a tour guide who may have had a bad day, etc.
+
+The experience could be personalized based on declared interests or intents such as athletics, academics, etc. An AR tour could also highlight more points and things around campus than a campus tour guide could remember on their own.
+
+\section*{Deliverables}
+
+Our initial use case would be interacting with the Gate of Hope. This involves recognizing the geometry of the statue or using other localization techniques to overlay information, vidoes, or other forms of interaction for the user.
+
+We envision an enhanced experience that will captivate the user as compared to a normal campus tour or looking at a pamphlet for information. Augmented reality is being able to interact with the world while overlaying a digital display and we want to be able to take that concept and apply it to this project.
+
+\section*{Success Criteria}
+
+Stretch Goals: Provide two interactive experiences in two different locations. Interactions could include leaving a comment, watching a video, or something more fun and light-hearted. We plan our first experience to be the Gate of Hope at Holmes Hall. We plan our second experience to be the Fourth Sign at the Art Building.
+
+Semester Goals: We want our experience to include 3D assests such as signage, avatars, and videos/pictures surrounding the Gate of Hope at Holmes Hall. We want our users to be able to interact, leave feedback, etc.
+
+We can break up our project into two separate goals, the first being able to recognize that we are infront of the statue, using either geometric recognition or localization. The second part of our project will involve us creating assets, displaying information and allowing the user to interact.
+
+\section*{Cost/Budget}
+
+1. MSI Gaming Laptop - \$2,000
+
+2. Windows Pro - \$100
+
+3. Microsoft Hololens - \$3,000
+
+
+
+\end{document}
