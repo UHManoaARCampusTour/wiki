@@ -1,0 +1,13 @@
+1) Recognize the "marker" from the powerpoint
+  - Vuforia (VuMarks)
+  - QRCode
+  - Barcode
+  - Test viewing angles
+
+2) Upon recognition, we want some object to pop-out and allow the user to know that the Hololens recognizes it
+  - 3D Assest/Prefab
+
+3) Allow user to interact with object
+  - Bring to desk
+  - Use voice commands
+  - Gestures
