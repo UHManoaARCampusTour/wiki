@@ -21,7 +21,14 @@ Welcome to our EE496 Project Wiki! We will document our code, meetings, presenta
 
 [February 8th, 2018](meeting_minutes/feb_8_18)
 
+[February 22nd, 2018](meeting_minutes/feb_22_18)
+
+[March 15th, 2018](meeting_minutes/mar_15_18)
+
 [March 28th, 2018](meeting_minutes/mar_28_18)
+
+[April 3rd, 2018](meeting_minutes/apr_3_18)
+
 
 ## Presentations
 
