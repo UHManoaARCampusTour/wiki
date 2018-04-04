@@ -21,7 +21,7 @@ Welcome to our EE496 Project Wiki! We will document our code, meetings, presenta
 
 [February 8th, 2018](meeting_minutes/feb_8_18)
 
-[March 28th, 2018] (meeting_minutes/mar_28_18)
+[March 28th, 2018](meeting_minutes/mar_28_18)
 
 ## Presentations
 
@@ -30,7 +30,7 @@ Welcome to our EE496 Project Wiki! We will document our code, meetings, presenta
 
 [Project Proposal](documents/Project_Proposal.pdf)
 
-[Midway Report] (documents/EE496___Midway_Report.pdf)
+[Midway Report](documents/EE496___Midway_Report.pdf)
 
 ## Links
 [Microsoft Hololens Academy Tutorials](https://developer.microsoft.com/en-us/windows/mixed-reality/academy)
